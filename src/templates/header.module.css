@@ -1,25 +1,29 @@
 .header {
   display: flex;
-  width: 100vw;
+  width: 100%;
   height: auto;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: #007df9;
+  background-color: #ededed;
 
   .offersContainer {
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: #a704ff;
+    background-color: #9f00f5;
     padding: 10px;
+    
+  }
+  .offersContainer span {
+    color: #fff;
+    font-size: 16px;
   }
 
   .navbarContainer {
     display: flex;
     width: 100%;
-    background-color: red;
     justify-content: space-between;
     align-items: center;
     margin-top: 0;
@@ -29,7 +33,6 @@
     gap: 10px;
     padding: 10px;
     align-items: center;
-    background-color: yellow;
   }
   .lenguage {
     display: flex;
@@ -41,6 +44,7 @@
 
 .navContainer {
   display: flex;
+  width: 100%;
   justify-content: center;
 }
 

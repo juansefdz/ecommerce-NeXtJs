@@ -41,6 +41,7 @@ export default function Header() {
         <div className="logo">
           <Image src="/Ecomus.svg" alt="search" width={300} height={20} />
         </div>
+
         <div className={styles.icons}>
           <div className={styles.searchContainer}>
             <Image
