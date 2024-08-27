@@ -1,39 +1,45 @@
 .SectionCollection {
   display: flex;
-  height: 400px;
+  width: 100%;
+  height: auto;
+  padding: 40px 0;
   flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  background-color: yellow;
+  background-color: rgb(249, 249, 217);
 }
 .TitleSectionCollection {
   display: flex;
   width: 100%;
   flex-direction: row;
-  justify-content: space-around ;
+  justify-content: space-around;
   align-items: center;
 }
 
-.TitleSectionCollection a{
+.TitleSectionCollection a {
   font-size: 15px;
   font-weight: 200;
   text-decoration: none;
 }
-.TitleSectionCollection h1{
+.TitleSectionCollection h1 {
   font-size: 25px;
   font-weight: 500;
-  
 }
-
 .categorySection {
   display: flex;
-  height: 400px;
-  gap: 30px;
-  justify-content: center;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
 }
-.categorySection img {
-  width: 150px;
-  height: 150px;
+.categoryContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+  flex-direction: column;
+}
+.categoryContainer img {
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 50%;
 }
