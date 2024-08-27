@@ -1,0 +1,39 @@
+.SectionCollection {
+  display: flex;
+  height: 400px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: yellow;
+}
+.TitleSectionCollection {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around ;
+  align-items: center;
+}
+
+.TitleSectionCollection a{
+  font-size: 15px;
+  font-weight: 200;
+  text-decoration: none;
+}
+.TitleSectionCollection h1{
+  font-size: 25px;
+  font-weight: 500;
+  
+}
+
+.categorySection {
+  display: flex;
+  height: 400px;
+  gap: 30px;
+  justify-content: center;
+}
+.categorySection img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}

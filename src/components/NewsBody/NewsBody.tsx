@@ -1,6 +1,6 @@
 // components/NewsBody.js
 import styles from "./newsBody.module.css";
-import Image from "next/image";
+
 
 export default function NewsBody() {
   return (
