@@ -1,5 +1,7 @@
 import styles from "./sectionCollection.module.css";
 import Image from "next/image";
+
+
 export default function SectionCollection() {
   return (
     <div className={styles.SectionCollection}>

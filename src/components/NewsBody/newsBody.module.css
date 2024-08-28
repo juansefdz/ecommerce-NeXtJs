@@ -17,6 +17,11 @@
   justify-content: center;
   background-color: #eff6cf;
 }
+.image{
+  
+
+  background-position: cover;
+}
 
 .infoNews button {
   width: auto;

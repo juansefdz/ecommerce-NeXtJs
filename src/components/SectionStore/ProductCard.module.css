@@ -1,0 +1,45 @@
+.imageContainer {
+  position: relative;
+}
+
+.productImage {
+  width: 100%;
+  height: auto;
+}
+
+.discountLabel {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: red;
+  color: white;
+  padding: 3px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.timer {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 35%;
+  background-color: rgba(0, 0, 0, 0.797);
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.colorDot {
+  display: flex;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
