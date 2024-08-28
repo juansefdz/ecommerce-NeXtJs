@@ -1,0 +1,50 @@
+.SectionDealsContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 10px;
+}
+
+.SectionDealsProduct {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SectionDealsImage {
+  width: 500px;
+  height: 600px;
+}
+
+.TextOverlay {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 200px;
+  text-align: center;
+  color: rgb(239, 239, 239);
+  text-shadow: 2px 2px 3px black;
+}
+
+.TextOverlay p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.TextOverlay h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.ShopButton {
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+}

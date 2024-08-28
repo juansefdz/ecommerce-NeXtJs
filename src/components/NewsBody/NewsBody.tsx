@@ -1,6 +1,6 @@
 // components/NewsBody.js
 import styles from "./newsBody.module.css";
-
+import Image from "next/image";
 
 export default function NewsBody() {
   return (
@@ -10,14 +10,21 @@ export default function NewsBody() {
         <p>Embrace the sun-kissed season with our collection of brexxy</p>
         <button>
           Shop collection
-          <img src="./assets/icons/right.png" alt="arrow" />
+          <Image
+            src="/assets/icons/right.png"
+            alt="arrow"
+            width={20}
+            height={20}
+          />
         </button>
       </div>
       <div className={styles.picNews}>
-        <img
-          src="https://www.shopjenatang.com/cdn/shop/products/sage-ball-cap-2_1400x.jpg?v=1633305703"
+        <Image
+          src="https://www.shopjenatang.com/cdn/shop/products/sage-ball-cap-2_1400x.jpg"
           className={styles.image}
           alt="news"
+          width={1400}
+          height={1867}
         />
       </div>
     </div>

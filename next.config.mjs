@@ -13,7 +13,10 @@ const nextConfig = {
       "d1fufvy4xao6k9.cloudfront.net",
       "arkfinejewelry.com",
       "facts.net",
-      "image.made-in-china.com","ae01.alicdn.com"
+      "image.made-in-china.com",
+      "ae01.alicdn.com",
+      "i.pinimg.com",
+      "montyandmoo.com.au",
     ],
   },
 };

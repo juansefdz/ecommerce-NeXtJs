@@ -1,3 +1,4 @@
+/* Header.module.css */
 .header {
   display: flex;
   width: 100%;
@@ -6,39 +7,42 @@
   align-items: center;
   justify-content: space-between;
   background-color: #fafafa;
+}
 
-  .offersContainer {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    background-color: #9f00f5;
-    padding: 10px;
-  }
-  .offersContainer span {
-    color: #fff;
-    font-size: 16px;
-  }
+.offersContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #9f00f5;
+  padding: 10px;
+}
 
-  .navbarContainer {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 0;
-  }
-  .lenguageContainer {
-    display: flex;
-    gap: 10px;
-    padding: 10px;
-    align-items: center;
-  }
-  .lenguage {
-    display: flex;
-    gap: 5px;
-    align-items: center;
-    justify-content: center;
-  }
+.offersContainer span {
+  color: #fff;
+  font-size: 16px;
+}
+
+.navbarContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+}
+
+.lenguageContainer {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+.lenguage {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
 }
 
 .navContainer {
@@ -70,6 +74,7 @@
   color: #333;
   font-size: 16px;
 }
+
 .searchContainer {
   display: flex;
   justify-content: center;
