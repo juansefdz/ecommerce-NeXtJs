@@ -1,0 +1,129 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.breadcrumbs {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.productSection {
+  display: flex;
+  gap: 20px;
+}
+
+.imageGallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.thumbnails img {
+  width: 50px;
+  cursor: pointer;
+}
+
+.mainImage img {
+  width: 300px;
+  height: auto;
+}
+
+.productDetails {
+  max-width: 400px;
+}
+
+.bestSeller {
+  color: red;
+  font-weight: bold;
+}
+
+.priceSection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.currentPrice {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.originalPrice {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.discount {
+  color: green;
+}
+
+.viewers {
+  font-size: 14px;
+  color: #666;
+}
+
+.timer {
+  font-size: 14px;
+  color: red;
+}
+
+.options {
+  margin-top: 20px;
+}
+
+.colorOption,
+.sizeOption {
+  margin-bottom: 10px;
+}
+
+.colorCircles {
+  display: flex;
+  gap: 5px;
+}
+
+.color1,
+.color2,
+.color3 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: beige; 
+}
+
+.sizeButtons {
+  display: flex;
+  gap: 5px;
+}
+
+.sizeButton {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.cartSection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.addToCart,
+.payPalButton {
+  padding: 10px;
+  cursor: pointer;
+}
