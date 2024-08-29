@@ -1,7 +1,89 @@
+/* components/Footer.module.css */
 .footer {
-  width: 100%;
-  background-color: #f5f5f5;
-  padding: 20px;
-  text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
+.footerSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footerColumn {
+  flex: 1;
+  margin: 10px;
+  min-width: 150px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.direction {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.socialIcons {
+  margin-top: 20px;
+}
+
+.socialIcons a {
+  margin-right: 10px;
+}
+
+.socialIcons img {
+  width: 24px;
+  height: 24px;
+}
+
+.footerList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footerListItem {
+  margin-bottom: 8px;
+}
+
+.footerLink {
+  text-decoration: none;
+  color: black;
+}
+
+.subscribeForm {
+  display: flex;
+  margin-top: 10px;
+}
+
+.subscribeInput {
+  padding: 5px;
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+}
+
+.subscribeButton {
+  padding: 5px 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+.lenguageZone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
