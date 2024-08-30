@@ -5,8 +5,7 @@ export default function StoreZone() {
   return (
     <div className={styles.container}>
       <div className={styles.breadcrumbs}>
-        <span>Home</span> &gt; <span>Women</span> &gt;{" "}
-        <span>women cap</span>
+        <span>Home</span> &gt; <span>Women</span> &gt; <span>women cap</span>
       </div>
       <div className={styles.productSection}>
         <div className={styles.imageGallery}>
@@ -87,6 +86,24 @@ export default function StoreZone() {
             </div>
             <button className={styles.addToCart}>Add to cart - $8.00</button>
             <button className={styles.payPalButton}>Buy with PayPal</button>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.tabs}>
+        <div className={styles.tabHeaders}>
+          <button className={styles.tabButton}>Description</button>
+          <button className={styles.tabButton}>Review</button>
+          <button className={styles.tabButton}>Shipping</button>
+          <button className={styles.tabButton}>Return</button>
+        </div>
+        <div className={styles.tabContent}>
+          <div className={styles.tabPane}>
+            <h2>Description</h2>
+            <p>
+              This women cap is perfect for summer days. Made with high-quality
+              materials, it provides comfort and style.
+            </p>
           </div>
         </div>
       </div>
