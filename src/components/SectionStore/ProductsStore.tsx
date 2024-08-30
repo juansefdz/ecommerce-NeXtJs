@@ -12,6 +12,7 @@ export default function ProductList() {
         <button>On Sale</button>
       </div>
       <div className={styles.productsContainer}>
+        
         <ProductCard />
         <ProductCard />
         <ProductCard />

@@ -1,4 +1,3 @@
-// Body.js
 import styles from "./body.module.css";
 import NewsBody from "./NewsBody/NewsBody";
 import SectionCollection from "./SectionCollection/SectionCollection";

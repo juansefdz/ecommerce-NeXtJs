@@ -1,4 +1,5 @@
-import styles from "./storebuy.module.css";
+import styles from "./StoreZone.module.css";
+import Image from "next/image";
 
 export default function StoreZone() {
   return (
@@ -10,13 +11,37 @@ export default function StoreZone() {
       <div className={styles.productSection}>
         <div className={styles.imageGallery}>
           <div className={styles.thumbnails}>
-            <img src="/images/thumb1.jpg" alt="Thumbnail 1" />
-            <img src="/images/thumb2.jpg" alt="Thumbnail 2" />
-            <img src="/images/thumb3.jpg" alt="Thumbnail 3" />
+            <Image
+              src="https://images.napali.app/global/billabong-products/all/default/large/s9cm04bip0_billabong,m_0491_frt1.jpg"
+              alt="Product"
+              width={400}
+              height={250}
+              className={styles.productImage}
+            />
+            <Image
+              src="https://images.napali.app/global/billabong-products/all/default/large/s9cm04bip0_billabong,m_0491_frt1.jpg"
+              alt="Product"
+              width={400}
+              height={250}
+              className={styles.productImage}
+            />
+            <Image
+              src="https://images.napali.app/global/billabong-products/all/default/large/s9cm04bip0_billabong,m_0491_frt1.jpg"
+              alt="Product"
+              width={250}
+              height={250}
+              className={styles.productImage}
+            />
           </div>
 
           <div className={styles.mainImage}>
-            <img src="/images/main-product.jpg" alt="Main Product" />
+            <Image
+              src="https://images.napali.app/global/billabong-products/all/default/large/s9cm04bip0_billabong,m_0491_frt1.jpg"
+              alt="Product"
+              width={400}
+              height={400}
+              className={styles.productImage}
+            />
           </div>
         </div>
 

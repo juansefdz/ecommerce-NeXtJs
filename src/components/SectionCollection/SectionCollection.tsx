@@ -1,13 +1,13 @@
 import styles from "./sectionCollection.module.css";
 import Image from "next/image";
-
+import Link from "next/link";
 
 export default function SectionCollection() {
   return (
     <div className={styles.SectionCollection}>
       <div className={styles.TitleSectionCollection}>
         <h1>SEASON COLLECTION</h1>
-        <a href="">view All Categories</a>
+        <Link href="">view All Categories</Link>
       </div>
       <div className={styles.categorySection}>
         <div className={styles.categoryContainer}>
@@ -27,7 +27,6 @@ export default function SectionCollection() {
             alt="mens"
             width={300}
             height={300}
-
           />
           <h3>Men&apos;s</h3>
           <p>9 items</p>
