@@ -6,7 +6,7 @@ export default function StoreZone() {
     <div className={styles.container}>
       <div className={styles.breadcrumbs}>
         <span>Home</span> &gt; <span>Women</span> &gt;{" "}
-        <span>Cotton jersey top</span>
+        <span>women cap</span>
       </div>
       <div className={styles.productSection}>
         <div className={styles.imageGallery}>
@@ -19,14 +19,14 @@ export default function StoreZone() {
               className={styles.productImage}
             />
             <Image
-              src="https://images.napali.app/global/billabong-products/all/default/large/s9cm04bip0_billabong,m_0491_frt1.jpg"
+              src="https://images.napali.app/global/billabong-products/all/default/hi-res/s9cm04bip0_billabong,m_0491_frt2.jpg"
               alt="Product"
               width={400}
               height={250}
               className={styles.productImage}
             />
             <Image
-              src="https://images.napali.app/global/billabong-products/all/default/large/s9cm04bip0_billabong,m_0491_frt1.jpg"
+              src="https://images.napali.app/global/billabong-products/all/default/hi-res/s9cm04bip0_billabong,p_0491_frt1.jpg"
               alt="Product"
               width={250}
               height={250}
@@ -46,7 +46,7 @@ export default function StoreZone() {
         </div>
 
         <div className={styles.productDetails}>
-          <h1>Cotton jersey top</h1>
+          <h1>Billa Bong</h1>
           <p className={styles.bestSeller}>Best seller</p>
           <div className={styles.priceSection}>
             <span className={styles.currentPrice}>$8.00</span>
